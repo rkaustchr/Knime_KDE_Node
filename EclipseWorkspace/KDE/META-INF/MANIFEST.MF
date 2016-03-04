@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: KDE-Node extension for KNIME Workbench
+Bundle-SymbolicName: org.rkaustchr; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: kde.jar
+Bundle-Activator: org.mkkde.KDENodePlugin
+Bundle-Vendor: Rafael Kaustchr
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Export-Package: org.mkkde
+
