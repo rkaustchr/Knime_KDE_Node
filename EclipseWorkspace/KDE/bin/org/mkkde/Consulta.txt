@@ -1,6 +1,0 @@
-
-Componentes do Dialog: https://tech.knime.org/available-default-dialog-components
-
-Códigos: https://tech.knime.org/developer/example-nodemodel
-
-Wiki Kernels: https://en.wikipedia.org/wiki/Kernel_(statistics)

@@ -8,23 +8,13 @@
 <config key="model">
 <entry key="method" type="xstring" value="Absolute"/>
 <entry key="samplingMethod" type="xstring" value="First"/>
-<entry key="fraction" type="xdouble" value="0.6"/>
-<entry key="count" type="xint" value="1"/>
+<entry key="fraction" type="xdouble" value="0.1"/>
+<entry key="count" type="xint" value="10"/>
 <entry key="random_seed" type="xstring" isnull="true" value=""/>
 <entry key="class_column" type="xstring" isnull="true" value=""/>
 </config>
-<config key="nodeAnnotation">
-<entry key="text" type="xstring" value="Particionador %%00013%%00010bandwidth"/>
-<entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="237"/>
-<entry key="y-coordinate" type="xint" value="345"/>
-<entry key="width" type="xint" value="101"/>
-<entry key="height" type="xint" value="30"/>
-<entry key="alignment" type="xstring" value="CENTER"/>
-<config key="styles"/>
-</config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.partition.PartitionNodeFactory"/>
 <entry key="node-name" type="xstring" value="Partitioning"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -33,22 +23,16 @@
 <entry key="node-bundle-version" type="xstring" value="2.12.1.0048767"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Partitioning"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 49, Cols: 1"/>
-<entry key="port_dir_location" type="xstring" value="port_2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">

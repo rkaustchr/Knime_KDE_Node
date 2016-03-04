@@ -174,7 +174,7 @@ public class KDENodeModel extends NodeModel {
                 prod = prod * p[i][j];
             }
             cells[0] = new DoubleCell(prod);
-            DataRow row = new DefaultRow(new RowKey("RowKey_" + i), cells);
+            DataRow row = new DefaultRow(new RowKey("Row" + i), cells);
             containerOut.addRowToTable(row);
         }
         containerOut.close();
